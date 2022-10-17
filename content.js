@@ -92,7 +92,8 @@ function click_shortcut(key) {
   }
   let number_btns = $("button:not(.btn):visible[numbered]");
   if (number_btns[key - 1] == null) {
-    console.log("wtf no visible buttons + number_btns[key - 1] = " + number_btns[key - 1]);
+    console.log("btn# " + key + " not visible (=" + number_btns[key - 1] + ")");
+    return;
   }
   number_btns[key - 1].click();
 }
