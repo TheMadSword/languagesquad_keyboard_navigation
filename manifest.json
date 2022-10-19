@@ -4,7 +4,7 @@
 
   "name": "Unofficial Language Squad keyboard navigation",
   "description": "Allows to play on Language Squad with only a keyboard",
-  "permissions": ["tabs"],
+  "permissions": [],
   "content_scripts": [
     {
       "matches": [
